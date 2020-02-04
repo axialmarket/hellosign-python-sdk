@@ -375,7 +375,7 @@ class HSClient(object):
 
             client_id (str): Pass client_id. For non embedded requests this can be used for white-labeling
 
-            files (list of str or StringIO): The uploaded file(s) to send for signature.
+            files (list of str or StringIO or BytesIO): The uploaded file(s) to send for signature.
 
             file_urls (list of str): URLs of the file for HelloSign to download to send for signature. Use either `files` or `file_urls`
 
