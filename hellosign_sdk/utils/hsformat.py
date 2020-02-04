@@ -24,7 +24,7 @@
 
 import json
 
-from StringIO import StringIO
+from io import StringIO
 
 class HSFormat(object):
     ''' Authentication object using HelloSign's access token '''
